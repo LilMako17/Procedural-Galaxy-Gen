@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164d041285b0b51468d5dca2a5777306, type: 3}
+  m_Name: Galaxy Settings
+  m_EditorClassIdentifier: 
+  StarOptions:
+  - SolarSystemSettings: {fileID: 11400000, guid: 73fb538e173cd764dba9a44fe9d87e3b,
+      type: 2}
+    Star3DPrefab: {fileID: 7576907550273041269, guid: f06765a979bcbcd4f9e5876a2e83ea69,
+      type: 3}
+    StarBillboardPrefab: {fileID: 8325649191141826593, guid: bf58e183a8f73ef4bb6a5d58a509afab,
+      type: 3}
+    RandomScale: {x: 0.5, y: 1}
+    RandomRotation: {x: 0, y: 360}
+    Radius: 1
+    DistributionMask: {fileID: 0}
+    DistributionMinDistanceFromCenter: 0
+    DistributionMaxDistanceFromCenter: 1
+    MaxConnections: 4
+  - SolarSystemSettings: {fileID: 11400000, guid: a24a0ac76ce03af41b7d28505b288560,
+      type: 2}
+    Star3DPrefab: {fileID: 7576907550273041269, guid: 7210971e48bfbf846969eba16909fb1f,
+      type: 3}
+    StarBillboardPrefab: {fileID: 8325649191141826593, guid: f034ab2717565c3418adcbf6a9cb4338,
+      type: 3}
+    RandomScale: {x: 0.25, y: 0.5}
+    RandomRotation: {x: 0, y: 360}
+    Radius: 1
+    DistributionMask: {fileID: 0}
+    DistributionMinDistanceFromCenter: 0.572
+    DistributionMaxDistanceFromCenter: 1
+    MaxConnections: 2
+  - SolarSystemSettings: {fileID: 11400000, guid: 07e7d44c182c948459358223fca2a065,
+      type: 2}
+    Star3DPrefab: {fileID: 7576907550273041269, guid: fdd198a7a2c615d42814e692b469214e,
+      type: 3}
+    StarBillboardPrefab: {fileID: 8325649191141826593, guid: 233f9d3fc975dc24eab80d2be67d86e2,
+      type: 3}
+    RandomScale: {x: 1, y: 1.25}
+    RandomRotation: {x: 0, y: 360}
+    Radius: 1
+    DistributionMask: {fileID: 0}
+    DistributionMinDistanceFromCenter: 0.41
+    DistributionMaxDistanceFromCenter: 1
+    MaxConnections: 4
+  GlobalShapeMask: {fileID: 2800000, guid: c80510b00e443b74ca8553858adcd953, type: 3}
+  MaskCutoffThreshold: 0.01
+  MinScatterDistance: 3
+  MaxScatterDistance: 7
+  YHeightCutOffCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.011056509
+      value: 1.0211265
+      inSlope: -0.013406397
+      outSlope: -0.013406397
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.30447882
+    - serializedVersion: 3
+      time: 0.992629
+      value: 0.017605841
+      inSlope: -2.9841352
+      outSlope: -2.9841352
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09297747
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MaxObjects: 50
+  Bounds: {x: 100, y: 5, z: 100}
+  NeighborSearchDistance: 8
+  LineRendererPrefab: {fileID: 7131958617330357384, guid: 0002bc29d49072348ba04fd22621eae6,
+    type: 3}
+  AllowOverlappingLines: 0
+  RemoveOrphans: 1

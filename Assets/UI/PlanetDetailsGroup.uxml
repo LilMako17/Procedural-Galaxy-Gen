@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BaseStyleSheet.uss?fileID=7433441132597879392&amp;guid=5e94fd2dc43ce1443a30ee390c6e0b69&amp;type=3#BaseStyleSheet" />
+    <ui:VisualElement name="PlanetDetailsGroup" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UI/kenney_ui-pack-space-expansion/Space/metalPanel_blue.png?fileID=2800000&amp;guid=9599aad18b592f7488e3693a955d4fdf&amp;type=3#metalPanel_blue&apos;); -unity-slice-left: 30; -unity-slice-top: 30; -unity-slice-right: 30; -unity-slice-bottom: 30; display: flex; height: 300px; width: 300px; flex-shrink: 0;">
+        <ui:VisualElement name="headergroup" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 30px; min-width: initial; min-height: initial; max-height: 34px; flex-direction: row; justify-content: space-between; align-self: auto; align-items: stretch;">
+            <ui:Label tabindex="-1" text="really long title that goes" display-tooltip-when-elided="true" name="title" class="header" style="margin-left: 6px; padding-top: 0; padding-bottom: 0; margin-right: 7px; font-size: 16px; text-overflow: ellipsis; overflow: hidden; flex-grow: 1; flex-shrink: 1;" />
+            <CustomButton name="CloseButton" class="close-button" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UI/kenney_ui-pack-space-expansion/Base/grey_box.png?fileID=2800000&amp;guid=a9156b8efc9cd6742aa88d1c47d911da&amp;type=3#grey_box&apos;); width: 30px; height: 30px; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-left: 4px; margin-right: 4px; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px; align-self: flex-end;">
+                <ui:VisualElement name="x" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UI/kenney_ui-pack-space-expansion/Base/red_cross.png?fileID=2800000&amp;guid=0913e2c9f31499940a83f42a2e4dcffd&amp;type=3#red_cross&apos;);" />
+            </CustomButton>
+        </ui:VisualElement>
+        <ui:VisualElement name="bodygroup" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); padding-bottom: 0; margin-bottom: 15px; margin-left: 9px; margin-right: 9px;">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="bodyText" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

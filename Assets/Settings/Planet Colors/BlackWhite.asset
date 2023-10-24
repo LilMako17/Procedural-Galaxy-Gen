@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7479c8fe9ceac054586fcde5dc0d9f99, type: 3}
+  m_Name: BlackWhite
+  m_EditorClassIdentifier: 
+  BiomeColorSettings:
+    Biomes:
+    - Gradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 1, g: 1, b: 1, a: 0}
+        key3: {r: 1, g: 1, b: 1, a: 0}
+        key4: {r: 1, g: 0.60881424, b: 0, a: 0}
+        key5: {r: 0.34974724, g: 0.28913325, b: 0.30666625, a: 0}
+        key6: {r: 0.495615, g: 0.46185243, b: 0.4621907, a: 0}
+        key7: {r: 0.92619866, g: 0.9716981, b: 0.9212798, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 65535
+        ctime3: 65535
+        ctime4: 65535
+        ctime5: 57825
+        ctime6: 62258
+        ctime7: 65535
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      Tint: {r: 0.18222676, g: 0.3679245, b: 0.18965422, a: 1}
+      TintPercent: 0
+      StartHeight: 0
+    Noise:
+      Frequency: 100
+      NoiseLayers: []
+    NoiseOffset: 0
+    NoiseStrength: 0
+    BlendAmount: 0
+  Material: {fileID: 2100000, guid: f2051e0bc595d0546809a7f38ef00e27, type: 2}

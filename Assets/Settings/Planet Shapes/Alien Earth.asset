@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adaa43cc16074de46a9945e43da4a37d, type: 3}
+  m_Name: Alien Earth
+  m_EditorClassIdentifier: 
+  Radius: 1
+  NoiseLayers:
+    Frequency: 0.001
+    NoiseLayers:
+    - Type: 0
+      NoiseSettings:
+        Center: {x: 0, y: 0, z: 0}
+        NumLayers: 2
+        BaseRoughness: 82.3
+        Roughness: 18.86
+        Persitence: 0.7
+        MultiplierValue: 0.01
+        OffsetValue: -0.55
+        MinValue: 0
+        MaxValue: 1
+        UseMin: 0
+        UseMax: 0
+      UseFirstLayerAsMask: 0
+      Enabled: 1
+    - Type: 1
+      NoiseSettings:
+        Center: {x: 0, y: 0, z: 0}
+        NumLayers: 3
+        BaseRoughness: 60.6
+        Roughness: 5.53
+        Persitence: 3
+        MultiplierValue: 5.56
+        OffsetValue: 0.92
+        MinValue: 0
+        MaxValue: 15.03
+        UseMin: 1
+        UseMax: 1
+      UseFirstLayerAsMask: 1
+      Enabled: 1
+    - Type: 2
+      NoiseSettings:
+        Center: {x: 0, y: 0, z: 0}
+        NumLayers: 3
+        BaseRoughness: 23.9
+        Roughness: 14.1
+        Persitence: 0.4
+        MultiplierValue: 0.2
+        OffsetValue: 0.61
+        MinValue: 0
+        MaxValue: 1
+        UseMin: 0
+        UseMax: 0
+      UseFirstLayerAsMask: 0
+      Enabled: 1

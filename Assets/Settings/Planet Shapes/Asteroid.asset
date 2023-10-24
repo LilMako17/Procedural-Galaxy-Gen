@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adaa43cc16074de46a9945e43da4a37d, type: 3}
+  m_Name: Asteroid
+  m_EditorClassIdentifier: 
+  Radius: 0.33
+  NoiseLayers:
+    Frequency: 0.001
+    NoiseLayers:
+    - Type: 0
+      NoiseSettings:
+        Center: {x: 0, y: -2.7, z: 0}
+        NumLayers: 3
+        BaseRoughness: 6.76
+        Roughness: 25.15
+        Persitence: 0.7
+        MultiplierValue: 1.04
+        OffsetValue: 0.18
+        MinValue: 0
+        MaxValue: 1.2
+        UseMin: 0
+        UseMax: 1
+      UseFirstLayerAsMask: 0
+      Enabled: 1
+    - Type: 1
+      NoiseSettings:
+        Center: {x: 0, y: 0, z: 0}
+        NumLayers: 2
+        BaseRoughness: 16.34
+        Roughness: 105.8
+        Persitence: 0.25
+        MultiplierValue: 1
+        OffsetValue: 0
+        MinValue: 0
+        MaxValue: 1
+        UseMin: 0
+        UseMax: 0
+      UseFirstLayerAsMask: 0
+      Enabled: 1

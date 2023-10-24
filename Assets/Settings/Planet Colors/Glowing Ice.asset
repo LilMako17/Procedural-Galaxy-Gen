@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7479c8fe9ceac054586fcde5dc0d9f99, type: 3}
+  m_Name: Glowing Ice
+  m_EditorClassIdentifier: 
+  BiomeColorSettings:
+    Biomes:
+    - Gradient:
+        serializedVersion: 2
+        key0: {r: 0.004360993, g: 0.9245283, b: 0.32109016, a: 1}
+        key1: {r: 0.39586985, g: 0.4413317, b: 0.4876574, a: 1}
+        key2: {r: 0.78991634, g: 0.88834983, b: 0.9150943, a: 0}
+        key3: {r: 0.34974724, g: 0.28913325, b: 0.30666625, a: 0}
+        key4: {r: 0.495615, g: 0.46185243, b: 0.4621907, a: 0}
+        key5: {r: 0.92619866, g: 0.9716981, b: 0.9212798, a: 0}
+        key6: {r: 0.495615, g: 0.46185243, b: 0.4621907, a: 0}
+        key7: {r: 0.11079773, g: 0.16037738, b: 0.10666609, a: 0}
+        ctime0: 0
+        ctime1: 38743
+        ctime2: 56861
+        ctime3: 57825
+        ctime4: 62258
+        ctime5: 65535
+        ctime6: 62258
+        ctime7: 65535
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 3
+        m_NumAlphaKeys: 2
+      Tint: {r: 0.18222676, g: 0.3679245, b: 0.18965422, a: 1}
+      TintPercent: 0
+      StartHeight: 0.22
+    - Gradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0.014938844, b: 0.3962264, a: 1}
+        key1: {r: 0.1735938, g: 0.19390795, b: 0.7830189, a: 1}
+        key2: {r: 0.1735938, g: 0.19390795, b: 0.7830189, a: 0}
+        key3: {r: 0.1735938, g: 0.19390795, b: 0.7830189, a: 0}
+        key4: {r: 0.92619866, g: 0.9716981, b: 0.9212798, a: 0}
+        key5: {r: 0.16037738, g: 0.08548417, b: 0.105455674, a: 0}
+        key6: {r: 0.495615, g: 0.46185243, b: 0.4621907, a: 0}
+        key7: {r: 0.11079773, g: 0.16037738, b: 0.10666609, a: 0}
+        ctime0: 13493
+        ctime1: 44718
+        ctime2: 44718
+        ctime3: 44718
+        ctime4: 65535
+        ctime5: 57825
+        ctime6: 62258
+        ctime7: 65535
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      Tint: {r: 0, g: 0.61634636, b: 1, a: 1}
+      TintPercent: 0
+      StartHeight: 0.93
+    - Gradient:
+        serializedVersion: 2
+        key0: {r: 0.9056604, g: 0.2007832, b: 0.2909186, a: 1}
+        key1: {r: 0, g: 0.014938844, b: 0.3962264, a: 1}
+        key2: {r: 0.17921321, g: 0.12482201, b: 0.4811321, a: 0}
+        key3: {r: 0.7208526, g: 0.8023549, b: 0.9150943, a: 0}
+        key4: {r: 0.7208526, g: 0.8023549, b: 0.9150943, a: 0}
+        key5: {r: 0.92619866, g: 0.9716981, b: 0.9212798, a: 0}
+        key6: {r: 0.92619866, g: 0.9716981, b: 0.9212798, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 6168
+        ctime1: 50308
+        ctime2: 63029
+        ctime3: 65535
+        ctime4: 65535
+        ctime5: 65535
+        ctime6: 65535
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 4
+        m_NumAlphaKeys: 2
+      Tint: {r: 0, g: 0.61634636, b: 1, a: 1}
+      TintPercent: 0
+      StartHeight: 0.48
+    Noise:
+      Frequency: 100
+      NoiseLayers:
+      - Type: 0
+        NoiseSettings:
+          Center: {x: 0, y: 0, z: 0}
+          NumLayers: 1
+          BaseRoughness: 0.04
+          Roughness: 0
+          Persitence: 1
+          MultiplierValue: 7.11
+          OffsetValue: 0
+          MinValue: 0
+          MaxValue: 0
+          UseMin: 0
+          UseMax: 0
+        UseFirstLayerAsMask: 0
+        Enabled: 1
+    NoiseOffset: 3.62
+    NoiseStrength: 0.05
+    BlendAmount: 0.38
+  Material: {fileID: 2100000, guid: f2051e0bc595d0546809a7f38ef00e27, type: 2}

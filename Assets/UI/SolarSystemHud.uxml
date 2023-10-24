@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PlanetDetailsGroup" src="project://database/Assets/UI/PlanetDetailsGroup.uxml?fileID=9197481963319205126&amp;guid=93c30bb250114ed428d8a54caf03509e&amp;type=3#PlanetDetailsGroup" />
+    <Style src="project://database/Assets/UI/BaseStyleSheet.uss?fileID=7433441132597879392&amp;guid=5e94fd2dc43ce1443a30ee390c6e0b69&amp;type=3#BaseStyleSheet" />
+    <ui:VisualElement name="BackGroup" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 86px;">
+        <CustomButton name="BackButton" text="Return" class="hud-button" style="height: 25px;" />
+    </ui:VisualElement>
+    <ui:Instance template="PlanetDetailsGroup" name="PlanetDetailsGroup" picking-mode="Ignore" style="flex-grow: 1; flex-shrink: 0; flex-direction: row; align-items: center; justify-content: flex-end; width: initial; height: initial; padding-right: 26px; padding-top: 16px;" />
+</ui:UXML>

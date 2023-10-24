@@ -1,0 +1,89 @@
+.header {
+    font-size: 26px;
+    -unity-font: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Fonts/Kenney%20Future.ttf?fileID=12800000&guid=a96f27d8bb096fb4ea8365d150077b60&type=3#Kenney Future');
+    color: rgb(255, 255, 255);
+    -unity-font-definition: initial;
+}
+
+.hud-button {
+    -unity-background-image-tint-color: rgb(217, 242, 248);
+    -unity-font: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Fonts/kenvector_future_thin.ttf?fileID=12800000&guid=80a9560f48970634798e34029b4a5691&type=3#kenvector_future_thin');
+    -unity-font-definition: initial;
+    background-image: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Base/grey_button07.png?fileID=2800000&guid=36e6f543f9595dc44bced33e89fdd931&type=3#grey_button07');
+    -unity-slice-left: 18;
+    -unity-slice-top: 5;
+    -unity-slice-right: 18;
+    -unity-slice-bottom: 9;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-text-align: middle-center;
+    padding-bottom: 11px;
+    color: rgb(77, 84, 87);
+}
+
+.hud-button:hover {
+    background-image: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Base/grey_button08.png?fileID=2800000&guid=3fafcf007064f1942b0bbb2b9639b18d&type=3#grey_button08');
+    -unity-slice-left: 18;
+    -unity-slice-top: 5;
+    -unity-slice-right: 18;
+    -unity-slice-bottom: 9;
+}
+
+.hud-button:focus {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hud-button:active {
+    -unity-slice-left: 18;
+    -unity-slice-top: 5;
+    -unity-slice-right: 18;
+    -unity-slice-bottom: 9;
+    background-image: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Base/grey_button09.png?fileID=2800000&guid=6d124405dc8012a4d8da132aa8f4c4d0&type=3#grey_button09');
+    padding-bottom: 4px;
+}
+
+.hud-button:inactive {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hud-button:disabled {
+    -unity-background-image-tint-color: rgb(144, 158, 161);
+    opacity: 1;
+    background-image: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Base/grey_button10.png?fileID=2800000&guid=d5cdc97b0a72c8d4c834c41137a958df&type=3#grey_button10');
+    -unity-slice-left: 18;
+    -unity-slice-top: 5;
+    -unity-slice-right: 18;
+    -unity-slice-bottom: 9;
+    color: rgb(97, 115, 118);
+}
+
+.tooltip {
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Fonts/kenvector_future_thin.ttf?fileID=12800000&guid=80a9560f48970634798e34029b4a5691&type=3#kenvector_future_thin');
+}
+
+.unity-label {
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/UI/kenney_ui-pack-space-expansion/Fonts/Kenney%20Mini.ttf?fileID=12800000&guid=115a9cf88fcbc774081978973260c804&type=3#Kenney Mini');
+}
+
+.close-button {
+}
+
+.close-button:hover {
+    -unity-background-image-tint-color: rgb(250, 205, 205);
+}
+
+.close-button:active {
+    -unity-background-image-tint-color: rgb(255, 170, 170);
+}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4313b9c597bdcd84d8840207c6a31b4e, type: 3}
+  m_Name: Solar System Settings - Yellow Star
+  m_EditorClassIdentifier: 
+  MinPlanets: 1
+  MaxPlanets: 5
+  MinOrbitDistance: 15
+  MinOrbitSpacing: 7
+  MaxOrbitSpacing: 15
+  MinMoonDistance: 2
+  MinMoonOrbitSpacing: 1
+  MaxMoonOrbitSpacing: 1
+  OrbitLinePrefab: {fileID: 6146486914937754297, guid: 8ed9190dca1cc2643a241bdc95175441,
+    type: 3}
+  PlanetPrefab: {fileID: 9204394213533205097, guid: 55a1d84f283218245ae55ea5eca3af5e,
+    type: 3}
+  PlanetSettingsList:
+  - shapeSettings: {fileID: 11400000, guid: cc025ef00a5924139aa5af070da9ab28, type: 2}
+    colorSettings: {fileID: 11400000, guid: 8ebba28eef71a9741a5d4d2069428c5c, type: 2}
+    minScale: 0.5
+    maxScale: 2
+    minMoons: 0
+    maxMoons: 1
+  - shapeSettings: {fileID: 11400000, guid: 0a4677c9c0a21034eb62ad6bff7a66cb, type: 2}
+    colorSettings: {fileID: 11400000, guid: 59da5776aa9ac5849ada18059ad4fc16, type: 2}
+    minScale: 2
+    maxScale: 3
+    minMoons: 0
+    maxMoons: 1
+  - shapeSettings: {fileID: 11400000, guid: 49ac15a0c677e4b41b8ffd08a0d5b8be, type: 2}
+    colorSettings: {fileID: 11400000, guid: 3d81cb057cb1e8a41a2979f58c52b9e4, type: 2}
+    minScale: 1
+    maxScale: 1
+    minMoons: 0
+    maxMoons: 1
+  MoonSettingsList:
+  - shapeSettings: {fileID: 11400000, guid: 4f8051ccf76a9b54984db106683154aa, type: 2}
+    colorSettings: {fileID: 11400000, guid: 1c23f6bd0cb4aa645b8e87434cb65f76, type: 2}
+    minScale: 0.5
+    maxScale: 1
+    minMoons: 0
+    maxMoons: 0
+  - shapeSettings: {fileID: 11400000, guid: 4f8051ccf76a9b54984db106683154aa, type: 2}
+    colorSettings: {fileID: 11400000, guid: e0ded2a5e25db5c4fa272539f1dbe1d4, type: 2}
+    minScale: 1
+    maxScale: 1
+    minMoons: 0
+    maxMoons: 0
