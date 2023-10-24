@@ -14,6 +14,12 @@ Generated output is intentially non-realisticm there are no orbital mechanics or
 Authored in Unity 2022.3.4f1
 To Run: start from "Assets/Scenes/Galaxy.unity"
 
+Controls:
+<br>Hit "create" in top left to create a new galaxy.
+<br>Left click on a star to view the solar system. Left click on a planet to focus the camera on it.
+<br>Middle mouse drag to pan the camera
+<br>Right click drag to rotate the camera
+
 Third Party assets:
 <br>Space Graphics Toolkit - for rendering stars
 <br>Odin Serializer - for serializing data
